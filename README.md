@@ -1,8 +1,8 @@
-# application-matching
-Display Google Forms data on web page and vote for preferences
+# phc-matching
+Display Google Forms application data on Public Humanities Collaborative web page
 
 ## Live example
-http://commons.trincoll.edu/action-lab/apply/partners-and-proposals/
+http://commons.trincoll.edu/cli/phc
 
 ## Requirements
 - Google Form responses must appear in Google Sheets, which must be published. Insert URLs in main.js
