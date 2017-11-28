@@ -12,6 +12,13 @@ function processData(data, tabletop) {
   for (i in data) {
     if (data[i].Display !== 'y') continue;
 
+    var title = data[i]['Title'];
+    var titleKey = title.replace(' ', '');
+    if (!title) continue;
+
+    $('body').append('<div class="project-div" id="project-' + titleKey + '"></div>');
+    var div = '#project-' + titleKey;
+
     var names = data[i]['Name'];
     var research = data[i]['Research'];
 
