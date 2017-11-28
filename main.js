@@ -1,4 +1,4 @@
-var facultyURL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTQP155lRPhtzuASD_LEXs6xW5MWBNjCqWApyokQcZ_sWoiy6aAeBoh4sXASGzBCX_LXuRhMWzg0xdi/pubhtml';
+var facultyURL = 'https://docs.google.com/spreadsheets/d/1p8r5qRrLbDJp1tmBXvZow9ygzn2EVv3f_m0lgONC1HE/pubhtml';
 
 Tabletop.init({
   key: facultyURL,
